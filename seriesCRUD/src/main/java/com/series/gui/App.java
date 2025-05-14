@@ -193,7 +193,9 @@ public class App {
 				s.setNombre(nom);
 				s.setTemporadas(ntemp);
 				s.setCapitulos(ncaps);
-				
+				for(int i=0;i<10;i++){
+					System.out.println("HOLA");
+				}
 				ds.updateSerie(s);
 				btnMostrar.doClick();
 			}
@@ -213,7 +215,9 @@ public class App {
 				textNombre.setText("");
 				textTemporadas.setText("");
 				textCapitulos.setText("");
-				System.out.println("BUENAS ESTO ES UNA PRUEBA");
+				for(int i=0;i<10;i++){
+					System.out.println("HOLA");
+				}
 			}
 		});
 		btnBorrar.setBounds(460, 450, 107, 23);
