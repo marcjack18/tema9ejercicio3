@@ -193,7 +193,9 @@ public class App {
 				s.setNombre(nom);
 				s.setTemporadas(ntemp);
 				s.setCapitulos(ncaps);
-				
+				for(int i=0;i<10;i++){
+					System.out.println("HOLA");
+				}
 				ds.updateSerie(s);
 				btnMostrar.doClick();
 			}
