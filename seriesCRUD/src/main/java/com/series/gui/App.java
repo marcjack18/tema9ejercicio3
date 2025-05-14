@@ -60,7 +60,7 @@ public class App {
 		List<Serie> ls=null;
 		
 		frmCrudSeries = new JFrame();
-		frmCrudSeries.setTitle("CRUD series");
+		frmCrudSeries.setTitle("CRUD SERIES desde RAMAPRUEBA");
 		frmCrudSeries.setBounds(100, 100, 665, 539);
 		frmCrudSeries.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmCrudSeries.getContentPane().setLayout(null);
