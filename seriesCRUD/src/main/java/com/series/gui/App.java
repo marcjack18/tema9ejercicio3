@@ -73,8 +73,8 @@ public class App {
 		};
 		
 		model.addColumn("ID");
-		model.addColumn("Título");
-		model.addColumn("Nº temporadas");
+		model.addColumn("Tï¿½tulo");
+		model.addColumn("Nï¿½ temporadas");
 		model.addColumn("Total episodios");
 		
 		ls=ds.selectAllSeries();
@@ -213,6 +213,7 @@ public class App {
 				textNombre.setText("");
 				textTemporadas.setText("");
 				textCapitulos.setText("");
+				System.out.println("BUENAS ESTO ES UNA PRUEBA");
 			}
 		});
 		btnBorrar.setBounds(460, 450, 107, 23);
