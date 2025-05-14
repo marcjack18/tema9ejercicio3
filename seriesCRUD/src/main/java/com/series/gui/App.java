@@ -60,7 +60,7 @@ public class App {
 		List<Serie> ls=null;
 		
 		frmCrudSeries = new JFrame();
-		frmCrudSeries.setTitle("CRUD series");
+		frmCrudSeries.setTitle("CRUD SERIES desde Master");
 		frmCrudSeries.setBounds(100, 100, 665, 539);
 		frmCrudSeries.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmCrudSeries.getContentPane().setLayout(null);
@@ -193,9 +193,6 @@ public class App {
 				s.setNombre(nom);
 				s.setTemporadas(ntemp);
 				s.setCapitulos(ncaps);
-				for(int i=0;i<10;i++){
-					System.out.println("HOLA");
-				}
 				ds.updateSerie(s);
 				btnMostrar.doClick();
 			}
@@ -215,9 +212,6 @@ public class App {
 				textNombre.setText("");
 				textTemporadas.setText("");
 				textCapitulos.setText("");
-				for(int i=0;i<10;i++){
-					System.out.println("HOLA");
-				}
 			}
 		});
 		btnBorrar.setBounds(460, 450, 107, 23);
